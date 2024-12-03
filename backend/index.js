@@ -11,7 +11,7 @@ dotenv.config();
 
 // Enable CORS for requests from specific origin
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'http://edutrackconnect.netlify.app'
 
 }));
 
